@@ -27,7 +27,7 @@ const appConfigString = computed(() => {
       <UButton
         :disabled="!isSupported"
         :icon="copied ? 'i-lucide-check' : 'i-lucide-copy'"
-        @click="copy(JSON.stringify(appConfig.ui, null, 2))"
+        @click="copy(appConfigString)"
       >
         Copy Config
       </UButton>
