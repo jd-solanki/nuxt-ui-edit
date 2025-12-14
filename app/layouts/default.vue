@@ -74,6 +74,18 @@ const items: NavigationMenuItem[][] = [
           <template #body>
             <UContainer>
               <div class="p-4">
+                <UAlert
+                  color="warning"
+                  class="mb-8 lg:hidden"
+                  icon="i-lucide-triangle-alert"
+                  title="Editor is only available in large displays"
+                />
+                <UAlert
+                  color="warning"
+                  class="mb-8 xl:hidden max-lg:hidden"
+                  icon="i-lucide-triangle-alert"
+                  title="Prefer larger displays for better experience"
+                />
                 <slot />
               </div>
             </UContainer>
