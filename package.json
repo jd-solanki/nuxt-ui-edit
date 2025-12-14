@@ -1,0 +1,33 @@
+{
+  "name": "nuxt-ui-edit",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test": "vitest run",
+    "test:watch": "vitest --watch"
+  },
+  "dependencies": {
+    "@nuxt/eslint": "1.12.1",
+    "@nuxt/hints": "1.0.0-alpha.3",
+    "@nuxt/image": "2.0.0",
+    "@nuxt/ui": "4.2.1",
+    "eslint": "^9.0.0",
+    "nuxt": "^4.2.2",
+    "nuxt-jsoneditor": "^2.0.1",
+    "typescript": "^5.6.3",
+    "vue": "^3.5.25",
+    "vue-router": "^4.6.3"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^6.6.1",
+    "@antfu/utils": "^9.3.0",
+    "eslint-plugin-case-police": "^2.1.1",
+    "eslint-plugin-harlanzw": "^0.1.0",
+    "vitest": "^4.0.15"
+  }
+}

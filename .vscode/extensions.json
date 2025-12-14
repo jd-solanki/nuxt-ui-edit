@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "vue.volar",
+        "matijao.vue-nuxt-snippets",
+        "bradlc.vscode-tailwindcss",
+        "antfu.smart-clicks",
+        "yoavbls.pretty-ts-errors",
+        "xabikos.javascriptsnippets",
+        "antfu.iconify",
+        "dbaeumer.vscode-eslint"
+    ]
+}

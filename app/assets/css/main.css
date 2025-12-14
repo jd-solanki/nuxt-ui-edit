@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+:root {
+    --font-sans: 'Inter', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+
+}
+
+/* JSON Editor */
+.ͼ2 {
+    --indent-marker-bg-color: var(--ui-border) !important;
+    --indent-marker-active-bg-color: var(--ui-border-accented)
+}
+
+body {
+    font-family: var(--font-sans);
+}
