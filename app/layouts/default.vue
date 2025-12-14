@@ -67,7 +67,16 @@ const items: NavigationMenuItem[][] = [
               </template> -->
 
               <template #right>
-                <UDashboardSearchButton />
+                <UDashboardSearchButton class="me-4" />
+                <UButton
+                  icon="i-lucide-github"
+                  to="http://github.com/jd-solanki/nuxt-ui-edit"
+                  target="_blank"
+                  size="md"
+                  variant="ghost"
+                  color="neutral"
+                />
+                <UColorModeButton />
               </template>
             </UDashboardNavbar>
           </template>
